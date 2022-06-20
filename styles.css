@@ -1,0 +1,128 @@
+h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* .nav{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: 'Poppins', sans-serif;
+  background-color: #333;
+} */
+
+body {
+  background-color: rgba(200, 167, 112, 1);
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainbody {
+  background-color: rgba(200, 167, 112, 1);
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* getInfo */
+.myheader {
+  height: 180px;
+  z-index: 10;
+  background-color: #333;
+}
+
+.header-banner {
+  background-color: #333;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100px;
+}
+
+header h1 {
+  background-color: rgba(200, 167, 112, 1);
+  color: #fff;
+  padding: 0 1rem;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.visible-title {
+  visibility: visible;
+}
+
+/* demo content */
+body {
+  color: #292f36;
+  font-family: helvetica;
+  line-height: 1.6;
+}
+.content {
+  margin: 0 auto;
+  padding: 4rem 0;
+  width: 960px;
+  max-width: 100%;
+}
+article {
+  float: left;
+  width: 720px;
+}
+article p:first-of-type {
+  margin-top: 0;
+}
+aside {
+  float: right;
+  width: 120px;
+}
+p img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+  .content {
+    padding: 2rem 0;
+  }
+  article {
+    float: none;
+    margin: 0 auto;
+    width: 96%;
+  }
+  article:last-of-type {
+    margin-bottom: 3rem;
+  }
+  aside {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+}
+.bt {
+  background-color: #333;
+  color: #fff;
+  display: inline-block;
+  padding: 0.2em 1.45em;
+  margin: 0.1em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+}
+.bt:hover {
+  border-color: #7a7a7a;
+}
+.bt:active {
+  background-color: #999999;
+}
